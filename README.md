@@ -16,3 +16,7 @@ Commands are:
 - `!reset` - End the session
 
 All player commands (eg !initialise, !give) use @ tagging
+
+## Limitations
+
+Fatebot currently only supports one session. Multi-session support may come at a later date.
