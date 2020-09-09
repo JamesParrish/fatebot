@@ -1,13 +1,8 @@
-import { Player } from './models/player';
 import { Initialise, Chips, GiveChip, TakeChip, Reset } from './magic/chips'
 import * as Discord from 'discord.js';
 
 const client = new Discord.Client();
-
 const config = require('./fatebot.config.json');
-const { createThisTypeNode } = require('typescript');
-
-const chips: Player[] = [];
 
 client.once('ready', () => {
     if (!client.user) {
